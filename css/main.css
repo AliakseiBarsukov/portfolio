@@ -55,6 +55,8 @@ html, body {
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
 
+    scroll-behavior: smooth;
+
     /* Light mode */
     background-color: var(--page-bg);
     color: var(--text-color);
