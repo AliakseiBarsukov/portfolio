@@ -301,7 +301,7 @@ html, body {
 }
 
 .btn-outline:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .btn-outline:active {
@@ -324,6 +324,12 @@ html, body {
     background-color: var(--project-card-bg);
     box-shadow: var(--box-shadow);
     border-radius: 10px;
+}
+
+.poject__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .project_text {
