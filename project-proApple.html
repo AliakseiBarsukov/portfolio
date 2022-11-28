@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <title>Aliaksei Barsukov portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-
 <body>
     <nav class="nav">
         <div class="container">
@@ -21,8 +19,7 @@
                 </button>
 
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a href="#project"
-                            class="nav-list__link nav-list__link--active">Projects</a></li>
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Projects</a></li>
                     <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
                     <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
                 </ul>
@@ -30,55 +27,30 @@
         </div>
     </nav>
 
-    <header class="header">
-        <div class="header__wrapper">
-            <h1 class="header__title">
-                <strong>Hi, my name is <em>Aliaksei</em></strong><br>
-                frondend developer
-            </h1>
-            <div class="header__text">
-                <p>with passion for learning and creating.</p>
-            </div>
-            <a href="#" download="cv/Barsukov Aliaksei.doc" class="btn">Download CV</a>
-        </div>
-    </header>
-
     <main class="section">
-        <div id="project" class="container">
-            <h2 class="title-1">Projects</h2>
-            <ul class="projects">
-                <li class="project">
-                    <a href="./project-music-player.html">
-                        <img src="./img/projects/online_music.jpeg" alt="Project img" class="project__img">
-                        <h3 class="project__title">Online music player</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project-online-cinema.html">
-                        <img src="./img/projects/online_cinema.jpeg" alt="Project img" class="project__img">
-                        <h3 class="project__title">Online cinema</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project-happy-birthday.html">
-                        <img src="./img/projects/happy_cards.jpeg" alt="Project img" class="project__img">
-                        <h3 class="project__title">Happy post cards</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project-criypo.html">
-                        <img src="./img/projects/crypto.jpeg" alt="Project img" class="project__img">
-                        <h3 class="project__title">project Crypto</h3>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="./project-proApple.html">
-                        <img src="./img/projects/proApple.jpeg" alt="Project img" class="project__img">
-                        <h3 class="project__title">project ProApple</h3>
-                    </a>
-                </li>
+        <div class="container">
+            <div class="project-details">
 
-            </ul>
+                <h1 class="title-1">ProApple</h1>
+
+                <img src="./img/projects/proApple.jpeg" alt="" class="project-details__cover">
+
+                <div class="project-details__desc">
+                    <p>В данном лендинге реализованно: таймер обратоно отсчета, получение курсов валютных пар по API в реальном времени, слайдер Swiper</p>
+                    <p>Skills: HTML, CSS, JavaScript</p>
+                </div>
+
+                <div class="poject__wrapper">
+                    <a href="https://github.com/AliakseiBarsukov/ProApple-14" target="_blank" class="btn-outline">
+                        <img src="./img/icons/gitHub-black.svg" alt="">
+                        GitHub repo
+                    </a>
+                    <a href="https://aliakseibarsukov.github.io/ProApple-14/" target="_blank" class="btn-outline">
+                        Link
+                    </a>
+                </div>
+
+            </div>
         </div>
     </main>
 
@@ -131,5 +103,4 @@
     <script src="./js/main.js"></script>
 
 </body>
-
 </html>
