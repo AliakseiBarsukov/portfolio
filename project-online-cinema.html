@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aliaksei Barsukov portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/main.js" defer></script>
 </head>
 <body>
     <nav class="nav">
@@ -32,8 +34,20 @@
             <div class="project-details">
 
                 <h1 class="title-1">Online Cinema</h1>
-
-                <img src="./img/projects/online_cinema.jpeg" alt="" class="project-details__cover">
+                <div class="container__slider">
+                    <div class="slide active">
+                        <img src="./img/projects/online_cinema.jpeg" alt="slide" class="project-details__cover">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/projects/online_cinema-2.jpeg" alt="slide" class="project-details__cover">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/projects/online_cinema-3.jpeg" alt="slide" class="project-details__cover">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/projects/online_cinema-4.jpeg" alt="slide" class="project-details__cover">
+                    </div>
+                </div>
 
                 <div class="project-details__desc">
                     <p>Сайт для просмотра трейлеров к фильмам</p>
@@ -103,7 +117,7 @@
         </div>
     </footer>
 
-    <script src="./js/main.js"></script>
+
 
 </body>
 </html>
