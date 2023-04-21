@@ -585,6 +585,15 @@ transition: all 500ms ease-in-out;
 
 }
 
+@media (max-width: 560px) {
+    .project-details__desc {
+        margin-top: 20px;
+    }
+    .project-details__cover {
+        height: auto;
+    }
+}
+
 @media (max-width: 370px) {
     .nav-list {
         column-gap: 20px;
